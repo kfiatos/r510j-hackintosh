@@ -1,0 +1,149 @@
+35:299  3:233  Found BIOS RSDP at F0000
+35:299  0:000  Printing ACPI tables from RSDP F0000 ...
+35:299  0:000   F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+35:299  0:000    (Xsdt: CA484090, Rsdt: CA484028)
+35:299  0:000    CA484090: 'XSDT', 'Notebook', Rev: 1, Len: 172
+35:299  0:000    CA484028: 'RSDT', 'Notebook', Rev: 1, Len: 104
+35:299  0:000    Tables in Xsdt: 17
+35:299  0:000    0. CA497F50: 'FACP', 'Notebook', Rev: 5, Len: 268
+35:299  0:000        (Dsdt: CA484258, Facs: CAAFEF80, XDsdt: CA484258, XFacs: 0)
+35:299  0:000        CA484258: 'DSDT', 'Notebook', Rev: 2, Len: 81137
+35:302  0:003        CAAFEF80: 'FACS', Ver: 2, Len: 64
+35:302  0:000    1. CA498060: 'APIC', 'Notebook', Rev: 3, Len: 146
+35:302  0:000    2. CA4980F8: 'FPDT', 'Notebook', Rev: 1, Len: 68
+35:302  0:000    3. CA498140: 'ECDT', 'Notebook', Rev: 1, Len: 193
+35:302  0:000    4. CA498208: 'SSDT', 'zpodd', Rev: 1, Len: 413
+35:302  0:000    5. CA4983A8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+35:302  0:000    6. CA4988E8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+35:302  0:000    7. CA4993C0: 'MCFG', 'Notebook', Rev: 1, Len: 60
+35:302  0:000    8. CA499400: 'HPET', 'Notebook', Rev: 1, Len: 56
+35:302  0:000    9. CA499438: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+35:302  0:000    10. CA4996D0: 'SSDT', 'SaSsdt', Rev: 1, Len: 17729
+35:302  0:000    11. CA49DC18: 'SSDT', 'SgPeg', Rev: 1, Len: 6586
+35:302  0:000    12. CA49F5D8: 'SSDT', 'CppcTabl', Rev: 1, Len: 915
+35:302  0:000    13. CA49F970: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
+35:302  0:000    14. CA49F9E0: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+35:302  0:000    15. CA4A04A8: 'SSDT', 'OptTabl', Rev: 1, Len: 6647
+35:302  0:000    16. CA248E18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+35:302  0:000    Tables in Rsdt: 17
+35:302  0:000    0. CA484148: 'FACP', 'Notebook', Rev: 2, Len: 268
+35:302  0:000        (Dsdt: CA484258, Facs: CAAFEF40)
+35:302  0:000        CA484258: 'DSDT', 'Notebook', Rev: 2, Len: 81137
+35:306  0:003        CAAFEF40: 'FACS', Ver: 0, Len: 64
+35:306  0:000    1. CA498060: 'APIC', 'Notebook', Rev: 3, Len: 146
+35:306  0:000    2. CA4980F8: 'FPDT', 'Notebook', Rev: 1, Len: 68
+35:306  0:000    3. CA498140: 'ECDT', 'Notebook', Rev: 1, Len: 193
+35:306  0:000    4. CA498208: 'SSDT', 'zpodd', Rev: 1, Len: 413
+35:306  0:000    5. CA4983A8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+35:306  0:000    6. CA4988E8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+35:306  0:000    7. CA4993C0: 'MCFG', 'Notebook', Rev: 1, Len: 60
+35:306  0:000    8. CA499400: 'HPET', 'Notebook', Rev: 1, Len: 56
+35:306  0:000    9. CA499438: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+35:306  0:000    10. CA4996D0: 'SSDT', 'SaSsdt', Rev: 1, Len: 17729
+35:306  0:000    11. CA49DC18: 'SSDT', 'SgPeg', Rev: 1, Len: 6586
+35:306  0:000    12. CA49F5D8: 'SSDT', 'CppcTabl', Rev: 1, Len: 915
+35:306  0:000    13. CA49F970: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
+35:306  0:000    14. CA49F9E0: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+35:306  0:000    15. CA4A04A8: 'SSDT', 'OptTabl', Rev: 1, Len: 6647
+35:306  0:000    16. CA248E18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+35:306  0:000  Found UEFI Acpi 2.0 RSDP at CA484000
+35:306  0:000  Saving ACPI tables from RSDP CA484000 to EFI\CLOVER\ACPI\origin ...
+35:306  0:000   CA484000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+35:313  0:006    (Xsdt: CA484090, Rsdt: CA484028)
+35:313  0:000    CA484090: 'XSDT', 'Notebook', Rev: 1, Len: 172 -> XSDT.aml
+35:316  0:002    CA484028: 'RSDT', 'Notebook', Rev: 1, Len: 104 -> RSDT.aml
+35:318  0:002    Tables in Xsdt: 17
+35:318  0:000    0. CA497F50: 'FACP', 'Notebook', Rev: 5, Len: 268 -> FACP.aml
+35:321  0:002        (Dsdt: CA484258, Facs: CAAFEF80, XDsdt: CA484258, XFacs: 0)
+35:321  0:000        CA484258: 'DSDT', 'Notebook', Rev: 2, Len: 81137 -> DSDT.aml
+35:332  0:010        CAAFEF80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+35:337  0:004    1. CA498060: 'APIC', 'Notebook', Rev: 3, Len: 146 -> APIC.aml
+35:339  0:002    2. CA4980F8: 'FPDT', 'Notebook', Rev: 1, Len: 68 -> FPDT.aml
+35:342  0:002    3. CA498140: 'ECDT', 'Notebook', Rev: 1, Len: 193 -> ECDT.aml
+35:345  0:002    4. CA498208: 'SSDT', 'zpodd', Rev: 1, Len: 413 -> SSDT-0-zpodd.aml
+35:347  0:002    5. CA4983A8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337 -> SSDT-1-Cpu0Ist.aml
+35:350  0:002    6. CA4988E8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776 -> SSDT-2-CpuPm.aml (Found hidden SSDT 4 pcs)
+35:354  0:003        * C9048A98: '$', '', Rev: 0, Len: 23117  24 05 00 10 4D 5A 00 00 00 00 00 00 00 00 00 00 
+35:354  0:000        * CA23E618: 'SSDT', 'ApIst', Rev: 1, Len: 1450  53 53 44 54 AA 05 00 00 01 D3 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x2_0-ApIst.aml
+35:357  0:002        * CA23EC18: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 979  53 53 44 54 D3 03 00 00 01 B3 50 6D 52 65 66 00 Internal length = 979 -> SSDT-x2_1-Cpu0Cst.aml
+35:359  0:002        * CA23DD98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EF 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x2_2-ApCst.aml
+35:362  0:002  
+35:362  0:000    7. CA4993C0: 'MCFG', 'Notebook', Rev: 1, Len: 60 -> MCFG.aml
+35:365  0:002    8. CA499400: 'HPET', 'Notebook', Rev: 1, Len: 56 -> HPET.aml
+35:368  0:002    9. CA499438: 'SSDT', 'SataTabl', Rev: 1, Len: 664 -> SSDT-3-SataTabl.aml
+35:371  0:003    10. CA4996D0: 'SSDT', 'SaSsdt', Rev: 1, Len: 17729 -> SSDT-4-SaSsdt.aml
+35:375  0:003    11. CA49DC18: 'SSDT', 'SgPeg', Rev: 1, Len: 6586 -> SSDT-5-SgPeg.aml
+35:378  0:003    12. CA49F5D8: 'SSDT', 'CppcTabl', Rev: 1, Len: 915 -> SSDT-6-CppcTabl.aml
+35:380  0:002    13. CA49F970: 'PCCT', 'PcctTabl', Rev: 5, Len: 110 -> PCCT.aml
+35:383  0:002    14. CA49F9E0: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756 -> SSDT-7-Cpc_Tabl.aml
+35:387  0:003    15. CA4A04A8: 'SSDT', 'OptTabl', Rev: 1, Len: 6647 -> SSDT-8-OptTabl.aml
+35:391  0:003    16. CA248E18: 'MSDM', 'Notebook', Rev: 3, Len: 85 -> MSDM.aml
+35:393  0:002    Tables in Rsdt: 17
+35:393  0:000    0. CA484148: 'FACP', 'Notebook', Rev: 2, Len: 268 -> RSDT-FACP.aml
+35:396  0:002        (Dsdt: CA484258, Facs: CAAFEF40)
+35:396  0:000        CA484258: 'DSDT', 'Notebook', Rev: 2, Len: 81137
+35:400  0:003        CAAFEF40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+35:402  0:002    1. CA498060: 'APIC', 'Notebook', Rev: 3, Len: 146
+35:402  0:000    2. CA4980F8: 'FPDT', 'Notebook', Rev: 1, Len: 68
+35:402  0:000    3. CA498140: 'ECDT', 'Notebook', Rev: 1, Len: 193
+35:402  0:000    4. CA498208: 'SSDT', 'zpodd', Rev: 1, Len: 413
+35:402  0:000    5. CA4983A8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+35:402  0:000    6. CA4988E8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+35:402  0:000    7. CA4993C0: 'MCFG', 'Notebook', Rev: 1, Len: 60
+35:402  0:000    8. CA499400: 'HPET', 'Notebook', Rev: 1, Len: 56
+35:402  0:000    9. CA499438: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+35:402  0:000    10. CA4996D0: 'SSDT', 'SaSsdt', Rev: 1, Len: 17729
+35:402  0:000    11. CA49DC18: 'SSDT', 'SgPeg', Rev: 1, Len: 6586
+35:402  0:000    12. CA49F5D8: 'SSDT', 'CppcTabl', Rev: 1, Len: 915
+35:402  0:000    13. CA49F970: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
+35:402  0:000    14. CA49F9E0: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+35:403  0:000    15. CA4A04A8: 'SSDT', 'OptTabl', Rev: 1, Len: 6647
+35:403  0:000    16. CA248E18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+35:403  0:000  Found UEFI Acpi 1.0 RSDP at CA484000
+35:403  0:000  Printing ACPI tables from RSDP CA484000 ...
+35:403  0:000   CA484000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+35:403  0:000    (Xsdt: CA484090, Rsdt: CA484028)
+35:403  0:000    CA484090: 'XSDT', 'Notebook', Rev: 1, Len: 172
+35:403  0:000    CA484028: 'RSDT', 'Notebook', Rev: 1, Len: 104
+35:403  0:000    Tables in Xsdt: 17
+35:403  0:000    0. CA497F50: 'FACP', 'Notebook', Rev: 5, Len: 268
+35:403  0:000        (Dsdt: CA484258, Facs: CAAFEF80, XDsdt: CA484258, XFacs: 0)
+35:403  0:000        CA484258: 'DSDT', 'Notebook', Rev: 2, Len: 81137
+35:406  0:003        CAAFEF80: 'FACS', Ver: 2, Len: 64
+35:406  0:000    1. CA498060: 'APIC', 'Notebook', Rev: 3, Len: 146
+35:406  0:000    2. CA4980F8: 'FPDT', 'Notebook', Rev: 1, Len: 68
+35:406  0:000    3. CA498140: 'ECDT', 'Notebook', Rev: 1, Len: 193
+35:406  0:000    4. CA498208: 'SSDT', 'zpodd', Rev: 1, Len: 413
+35:406  0:000    5. CA4983A8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+35:406  0:000    6. CA4988E8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+35:406  0:000    7. CA4993C0: 'MCFG', 'Notebook', Rev: 1, Len: 60
+35:406  0:000    8. CA499400: 'HPET', 'Notebook', Rev: 1, Len: 56
+35:406  0:000    9. CA499438: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+35:406  0:000    10. CA4996D0: 'SSDT', 'SaSsdt', Rev: 1, Len: 17729
+35:406  0:000    11. CA49DC18: 'SSDT', 'SgPeg', Rev: 1, Len: 6586
+35:406  0:000    12. CA49F5D8: 'SSDT', 'CppcTabl', Rev: 1, Len: 915
+35:406  0:000    13. CA49F970: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
+35:406  0:000    14. CA49F9E0: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+35:406  0:000    15. CA4A04A8: 'SSDT', 'OptTabl', Rev: 1, Len: 6647
+35:406  0:000    16. CA248E18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+35:406  0:000    Tables in Rsdt: 17
+35:406  0:000    0. CA484148: 'FACP', 'Notebook', Rev: 2, Len: 268
+35:406  0:000        (Dsdt: CA484258, Facs: CAAFEF40)
+35:406  0:000        CA484258: 'DSDT', 'Notebook', Rev: 2, Len: 81137
+35:410  0:003        CAAFEF40: 'FACS', Ver: 0, Len: 64
+35:410  0:000    1. CA498060: 'APIC', 'Notebook', Rev: 3, Len: 146
+35:410  0:000    2. CA4980F8: 'FPDT', 'Notebook', Rev: 1, Len: 68
+35:410  0:000    3. CA498140: 'ECDT', 'Notebook', Rev: 1, Len: 193
+35:410  0:000    4. CA498208: 'SSDT', 'zpodd', Rev: 1, Len: 413
+35:410  0:000    5. CA4983A8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+35:410  0:000    6. CA4988E8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+35:410  0:000    7. CA4993C0: 'MCFG', 'Notebook', Rev: 1, Len: 60
+35:410  0:000    8. CA499400: 'HPET', 'Notebook', Rev: 1, Len: 56
+35:410  0:000    9. CA499438: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+35:410  0:000    10. CA4996D0: 'SSDT', 'SaSsdt', Rev: 1, Len: 17729
+35:410  0:000    11. CA49DC18: 'SSDT', 'SgPeg', Rev: 1, Len: 6586
+35:410  0:000    12. CA49F5D8: 'SSDT', 'CppcTabl', Rev: 1, Len: 915
+35:410  0:000    13. CA49F970: 'PCCT', 'PcctTabl', Rev: 5, Len: 110
+35:410  0:000    14. CA49F9E0: 'SSDT', 'Cpc_Tabl', Rev: 1, Len: 2756
+35:410  0:000    15. CA4A04A8: 'SSDT', 'OptTabl', Rev: 1, Len: 6647
+35:410  0:000    16. CA248E18: 'MSDM', 'Notebook', Rev: 3, Len: 85
